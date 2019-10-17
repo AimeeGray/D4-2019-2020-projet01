@@ -3,6 +3,7 @@ section{
   margin: 0 auto;
 }
 
+
 header {
   background: rgb(252, 210, 28) bottom left;
   min-height: 35vh;
@@ -13,8 +14,6 @@ header {
   align-items: center;
 }
 
-
-
 header img{
   width: 25%;
   margin-left: 20px;
@@ -22,6 +21,7 @@ header img{
 
 h2{color: rgb(240, 195, 0);
   text-align: center;
+  background-color: white;
 }
 
 figure{
@@ -30,11 +30,37 @@ figure{
   transform: translateX(-50%);
 }
 
+.tout{
+  display: flex;
+  align-items: center;
+}
+
+.textesgauche{
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+}
+
+img.photosabeille
+{width: 50%;
+  height: 100%;
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;;
+}
+
+
 img.schemapollinisation
-{width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;}
+{
+width: 50%;
+  height: 100%;
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;;
+}
 
 img.lotus
 {width: 40%;
